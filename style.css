@@ -1,0 +1,82 @@
+@media screen and (max-width: 576px) {
+  .box img {
+    width: 100%;
+  }
+  .button_box {
+    margin-left: 14px;
+    padding: 10px 100px;
+  }
+  .text_background {
+    color: white;
+    margin-top: 80%;
+  }
+  .box_inside {
+    justify-content: center;
+    margin-left: 5px;
+  }
+  .btn_login {
+    margin-left: 3%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .button_box {
+    padding: 10px 200px;
+  }
+  .text_background {
+    color: white;
+    margin-top: 24%;
+  }
+  .btn_login {
+    margin-left: 72%;
+  }
+}
+
+.nav-item a {
+  padding: 10px 10px;
+}
+
+.nav-item a:hover {
+  background-color: rgba(0, 128, 0, 0.605);
+}
+
+.btn_login button {
+  color: white;
+  border: none;
+  background-color: green;
+}
+
+ul li {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.login {
+  padding: 8px 30px;
+}
+
+.jumbotron {
+  background: url("img/lily-banse--YHSwy6uqvk-unsplash.jpg") no-repeat center center fixed;
+  height: 100vh;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.drop button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+}
+
+.cardoffame {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  width: 6rem;
+  background-color: orange;
+  border-radius: 10px;
+}
